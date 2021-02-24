@@ -43,6 +43,7 @@ list *listCreate(void)
 {
     struct list *list;
 
+    // test
     if ((list = zmalloc(sizeof(*list))) == NULL)
         return NULL;
     list->head = list->tail = NULL;
